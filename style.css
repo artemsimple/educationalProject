@@ -15,7 +15,7 @@
   top: 37px;
   font-family: 'TT Hover';
   font-style: normal;
-  font-weight: 700px;
+  font-weight: 700;
   font-size: 16px;
   letter-spacing: 0.05em;
   line-height: 22px;
@@ -50,7 +50,7 @@
   top: 25px;
   font-family: 'TT Hoves';
   font-style: normal;
-  font-weight: 400px;
+  font-weight: 400;
   font-size: 14px;
   line-height: 17px;
   box-sizing: border-box;
@@ -71,83 +71,124 @@
   background:#8E88C1;
 }
 
-.header-content{
+.main-content{
   position: absolute;
-  width: 573px;
-  height: 393px;
-  left: 115px; 
-  top: 198px;
-  right: 712px;  
+  width: 1170px;
+  height: 506px;
+  top: 143px;
+  left: 115px;
 }
+
+.left-content{
+  position: absolute;
+  width:573px;
+  height: 411px;
+  top: 48px;
+}
+
+.one-position-1{
+    position: absolute;
+    display: flex;
+    width: 145px;
+    height: 41px;
+    background: #4B4864;
+    border-radius: 8px;
+  }
+
+  .text-1{
+    position: absolute;
+    width: 570px;
+    height: 85px;
+    top: 230px;
+    font-family: "Gilroy";
+    font-size:16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+    letter-spacing: 0.05em;
+    color: #8E88C1;
+  }
+
+  .about-company{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 208px;
+    height: 64px;
+    top: 345px;
+    background: #3F50E7;
+    box-shadow: 0px 6px 20px rgba(0, 255, 224, 0.2);
+    border-radius: 8px;
+  }
+
+  .about-company p {
+    color: white;
+  }
 
 .text{
   position: absolute;
-  width: 109px;
-  height: 21px;
   font-family: 'Gilroy';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 130%;
-  letter-spacing: 0.05em;
-  color: #8E88C1;
-}
-
-.text-border{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  width: 145px;
-  height: 41px;
-  background: #4B4864;
-  border-radius: 8px;
-}
-
-.one-posotion-2{
-  position: absolute;
-  width: 570px;
-  height: 85px;
-  top: 237px;
-  font-family: 'Gilroy';
+  top: -45px;
+  left: 12px;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 130%;
+  line-height: 130px;
   letter-spacing: 0.05em;
   color: #8E88C1;
-  }
+}
 
-.one-posotion-1{
+.main-title{
   position: absolute;
   width: 573px;
-  height: 88px;
-  top: 100px;
+  height:88px;
+  top: 90px;
   font-family: 'Gilroy';
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 44px;
-  letter-spacing: 0.05em;
-  color: #fff;
+  color: #FFFFFF;
 }
 
-.about-company{
+.right-content{
   position: absolute;
-  width: 208px;
-  height: 64px;
-  top: 327px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 470px;
+  background:linear-gradient(130deg, transparent 200px, #3F3B62 0);
+  height: 506px;
+  right: 0px;
+  border-radius: 8px;
 }
 
-.click-company{
+.inside-square{
   display: flex;
   justify-content: center;
   align-items: center;
   position: absolute;
-  width: 200px;
-  height: 56px;
-  background: #3F50E7;
-  box-shadow: 0px 6px 20px rgba(0, 255, 224, 0.2);
+  background-color: #827EAC;
+  width: 375px;
+  height: 411px;
+  box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.25);
   border-radius: 8px;
-  color: #fff;
+}
+
+.img{
+  background: red;
+  width: 318px;
+  height: 318px;
+}
+
+.ellips{
+  position: absolute; 
+  left: 84px;
+  right: 82px;
+  background: #F3F3F1;
+  box-shadow: 10px -11px 50px #FFFFFF;
+  width: 200px;
+  top: 47px;
+  height: 115px;
+  border-radius: 50%;
 }
