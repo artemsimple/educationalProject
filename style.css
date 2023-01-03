@@ -86,16 +86,16 @@
   top: 48px;
 }
 
-.one-position-1{
+.one-positionT{
     position: absolute;
     display: flex;
     width: 145px;
     height: 41px;
     background: #4B4864;
     border-radius: 8px;
-  }
+}
 
-  .text-1{
+.text-1{
     position: absolute;
     width: 570px;
     height: 85px;
@@ -107,9 +107,9 @@
     line-height: 130%;
     letter-spacing: 0.05em;
     color: #8E88C1;
-  }
+}
 
-  .about-company{
+.about-company {
     position: absolute;
     display: flex;
     justify-content: center;
@@ -120,11 +120,11 @@
     background: #3F50E7;
     box-shadow: 0px 6px 20px rgba(0, 255, 224, 0.2);
     border-radius: 8px;
-  }
+}
 
-  .about-company p {
+.about-company p {
     color: white;
-  }
+}
 
 .text{
   position: absolute;
@@ -165,35 +165,28 @@
 
 .inside-square{
   display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
   background-color: #827EAC;
-  width: 375px;
-  height: 411px;
+  width: 318px;
+  height: 318px;
   box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.25);
   border-radius: 8px;
 }
 
 .img{
-  background: red;
   width: 318px;
   height: 318px;
+  z-index: 10;  
 }
 
 .ellips{
-  position: absolute; 
-  left: 84px;
-  right: 82px;
-  background: #F3F3F1;
-  box-shadow: 10px -11px 50px #FFFFFF;
-  width: 200px;
-  top: 47px;
-  height: 115px;
-  border-radius: 50%;
-}
+  position: absolute;  
+  top: 84px; 
+  left: 147px;
+  width: 163px;
+  height: 120px;
+  }
 
-.main-content-1{
+.main-contents{
   position: absolute;
   width: 100%;
   height: 764px;
@@ -222,10 +215,18 @@
 }
 
 .block-orange{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 56.14px;
   height:56px;
   border-radius: 8px;
   background-color: #FF6834;
+}
+
+.sun{
+  width: 32.08px;
+  height: 32px;
 }
 
 .block-orange p{
@@ -240,6 +241,9 @@
 }
 
 .block-ping{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 56.14px;
   height:56px;
   border-radius: 8px;
@@ -247,6 +251,9 @@
 }
 
 .block-light-green{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 56.14px;
   height:56px;
   border-radius: 8px;
@@ -254,6 +261,9 @@
 }
 
 .block-violet{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 56.14px;
   height:56px;
   border-radius: 8px;
@@ -261,6 +271,9 @@
 }
 
 .block-green{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 56.14px;
   height:56px;
   border-radius: 8px;
@@ -335,4 +348,130 @@
   line-height: 24px;
   letter-spacing: 0.05em;
   color: #8E88C1;
+}
+
+.new-blocks{
+  position: absolute; 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1170px;
+  height: 300px;
+  top: 400px;
+  left: 115px; 
+}
+
+.first-block{
+  position: absolute;
+  width: 208px;
+  height: 300px;
+  background:linear-gradient(-170deg, transparent 160px, #FFF 0);
+  box-shadow: 0px 6px 20px rgba(0, 255, 224, 0.2);
+  border-radius: 8px;
+}
+
+.city{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 208px;
+  height: 164px;
+  background: linear-gradient(180deg, #FF6753 0%, rgba(255, 83, 124, 0.38) 100%), url(715);
+  background-image: url('assets/City.png');
+  opacity: 0.6; 
+}
+
+.sun-0{
+  display: flex;
+  position: absolute;
+  left: 10px;
+  width: 32.08px;
+  height: 32px;
+}
+
+.city p{
+  position: absolute;
+  width: 142px;
+  height: 40px;
+  left: 50px;
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+}
+
+.another-blocks{
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  width: 208px;
+  height: 206px; 
+  border: 2px solid #8E88C1;
+  border-radius: 8px;
+}
+
+.another-blocks-1{
+  margin-left: 206px;
+}
+
+.sun-1{
+  width: 32.08px;
+  height: 32px;
+  margin-top: -30px;
+  padding: 30px;
+}
+
+.inside-block{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 178px;
+  height: 98px;
+}
+
+.inside-block p{
+  width: 178px;
+  height: 20px;
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #8E88C1;
+}
+
+.title-text{
+  position: absolute;
+  width: 899px;
+  height: 84px;
+  top: 1506px;
+  left: 267px;
+}
+
+.title-text p {
+  font-family: 'TT Hoves';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 117%;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.map{
+  position: absolute;
+  top:1640px;
+  left: 115px;
+}
+
+.img-map{
+  width: 1170px;
+  height: 480px;
 }
