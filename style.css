@@ -475,3 +475,27 @@
   width: 1170px;
   height: 480px;
 }
+
+.footer{
+  width: 1170px;
+  height: 318px;
+  position: absolute; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  left: 115px;
+  top: 2120px;
+  border: 1px solid white;
+}
+
+.footer a{
+  text-decoration: none !important;
+  color: #FFF;
+}
+
+.fp {
+  color: #FFF;
+  position: absolute;
+  margin-bottom: -260px;
+}
