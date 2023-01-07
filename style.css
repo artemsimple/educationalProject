@@ -390,6 +390,25 @@
   height: 32px;
 }
 
+.asd{
+  border: 1px solid white;
+  position: absolute;
+  width: 118px;
+  height: 30px;
+  left: 50px;
+  top: 250px;
+  background: #3F50E7;
+  border-radius: 20px;
+}
+
+.asd p{
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  margin-top: 5px;
+  color: white;
+}
+
 .city p{
   position: absolute;
   width: 142px;
@@ -468,12 +487,35 @@
 .map{
   position: absolute;
   top:1640px;
+  object-fit: cover;
   left: 115px;
+  width: 1170px;
+  height: 480px;
+  background-image: url('assets/Rectangle.png');
 }
 
 .img-map{
   width: 1170px;
   height: 480px;
+}
+
+.form{
+  position: absolute;
+  width: 449px;
+  height: 380px;
+  left: 536px;
+  top: 50px;
+  background: #4B4864;
+  border-radius: 8px;
+}
+
+.form img{
+  position: absolute; 
+  display: flex;
+  left: 36px;
+  top: 27px;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer{
