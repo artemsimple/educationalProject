@@ -6,6 +6,7 @@
 .container {
     height: 2458px;
     background-color: #24204A;
+
 }
 
 #title {
@@ -379,7 +380,7 @@
     height: 164px;
     background: linear-gradient(180deg, #FF6753 0%, rgba(255, 83, 124, 0.38) 100%), url(715);
     background-image: url('assets/City.png');
-    opacity: 0.6;
+    opacity: 0.7;
 }
 
 .sun-0 {
@@ -539,4 +540,8 @@
     color: #FFF;
     position: absolute;
     margin-bottom: -260px;
+}
+
+.about_author span {
+    color: #FFF;
 }
