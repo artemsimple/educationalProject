@@ -545,3 +545,8 @@
 .about_author span {
     color: #FFF;
 }
+
+.original_design {
+    border: 3px dashed rgb(0, 0, 0);
+    padding: 1.1px;
+}
